@@ -56,3 +56,4 @@ Started GET "/hello_world" for 127.0.0.1 at 2018-02-20 11:35:04 +0000
   [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
 Started GET "/hello_world" for 127.0.0.1 at 2018-02-20 11:36:25 +0000
   [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
